@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Bull CZn </title>
+  <!-- <meta name="robots" content="max-image-preview:large"> -->
+  <!-- deploy -->
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+  </style>
+
+  <style>
+    .titan-one-regular {
+      font-family: "Titan One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-bottom: 60px;
+    }
+
+
+    .gallery-section {
+      padding: 50px;
+      background-color: #e2bc6d;
+      text-align: center;
+    }
+
+    .gallery-section h2 {
+      font-family: 'HEAD';
+      color: #FFFF;
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 15px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 250px;
+      /* Fixed height */
+      object-fit: cover;
+      /* Ensure images are cropped to fit */
+      object-position: center;
+      /* Center the image content */
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 1024px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery-section {
+        padding: 20px;
+      }
+
+      .gallery-section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+
+  <script>
+    window._wpemojiSettings = {
+      "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+      "ext": ".png",
+      "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+      "svgExt": ".svg",
+      "source": {
+        "concatemoji": "https:\/\/mrmigglesbase.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"
+      }
+    };
+    /*! This file is auto-generated */
+    ! function (i, n) {
+      var o, s, e;
+
+      function c(e) {
+        try {
+          var t = {
+            supportTests: e,
+            timestamp: (new Date).valueOf()
+          };
+          sessionStorage.setItem(o, JSON.stringify(t))
+        } catch (e) { }
+      }
+
+      function p(e, t, n) {
+        e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+        var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+          r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+        return t.every(function (e, t) {
+          return e === r[t]
+        })
+      }
+
+      function u(e, t, n) {
+        switch (t) {
+          case "flag":
+            return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+          case "emoji":
+            return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
+        }
+        return !1
+      }
+
+      function f(e, t, n) {
+        var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+          a = r.getContext("2d", {
+            willReadFrequently: !0
+          }),
+          o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+        return e.forEach(function (e) {
+          o[e] = t(a, e, n)
+        }), o
+      }
+
+      function t(e) {
+        var t = i.createElement("script");
+        t.src = e, t.defer = !0, i.head.appendChild(t)
+      }
+      "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+        everything: !0,
+        everythingExceptFlag: !0
+      }, e = new Promise(function (e) {
+        i.addEventListener("DOMContentLoaded", e, {
+          once: !0
+        })
+      }), new Promise(function (t) {
+        var n = function () {
+          try {
+            var e = JSON.parse(sessionStorage.getItem(o));
+            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+          } catch (e) { }
+          return null
+        }();
+        if (!n) {
+          if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+            var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+              r = new Blob([e], {
+                type: "text/javascript"
+              }),
+              a = new Worker(URL.createObjectURL(r), {
+                name: "wpTestEmojiSupports"
+              });
+            return void (a.onmessage = function (e) {
+              c(n = e.data), a.terminate(), t(n)
+            })
+          } catch (e) { }
+          c(n = f(s, u, p))
+        }
+        t(n)
+      }).then(function (e) {
+        for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+        n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () {
+          n.DOMReady = !0
+        }
+      }).then(function () {
+        return e
+      }).then(function () {
+        var e;
+        n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+      }))
+    }((window, document), window._wpemojiSettings);
+  </script>
+  <style id="wp-emoji-styles-inline-css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <style id="classic-theme-styles-inline-css">
+    /*! This file is auto-generated */
+    .wp-block-button__link {
+      color: #fff;
+      background-color: #32373c;
+      border-radius: 9999px;
+      box-shadow: none;
+      text-decoration: none;
+      padding: calc(.667em + 2px) calc(1.333em + 2px);
+      font-size: 1.125em
+    }
+
+    .wp-block-file__button {
+      background: #32373c;
+      color: #fff;
+      text-decoration: none
+    }
+  </style>
+  <style id="global-styles-inline-css">
+    :root {
+      --wp--preset--aspect-ratio--square: 1;
+      --wp--preset--aspect-ratio--4-3: 4/3;
+      --wp--preset--aspect-ratio--3-4: 3/4;
+      --wp--preset--aspect-ratio--3-2: 3/2;
+      --wp--preset--aspect-ratio--2-3: 2/3;
+      --wp--preset--aspect-ratio--16-9: 16/9;
+      --wp--preset--aspect-ratio--9-16: 9/16;
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+      --wp--preset--spacing--20: 0.44rem;
+      --wp--preset--spacing--30: 0.67rem;
+      --wp--preset--spacing--40: 1rem;
+      --wp--preset--spacing--50: 1.5rem;
+      --wp--preset--spacing--60: 2.25rem;
+      --wp--preset--spacing--70: 3.38rem;
+      --wp--preset--spacing--80: 5.06rem;
+      --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+      --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+      --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+      --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    }
+
+    :where(.is-layout-flex) {
+      gap: 0.5em;
+    }
+
+    :where(.is-layout-grid) {
+      gap: 0.5em;
+    }
+
+    body .is-layout-flex {
+      display: flex;
+    }
+
+    .is-layout-flex {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .is-layout-flex> :is(*, div) {
+      margin: 0;
+    }
+
+    body .is-layout-grid {
+      display: grid;
+    }
+
+    .is-layout-grid> :is(*, div) {
+      margin: 0;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    :where(.wp-block-post-template.is-layout-flex) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-post-template.is-layout-grid) {
+      gap: 1.25em;
+    }
+
+    :where(.wp-block-columns.is-layout-flex) {
+      gap: 2em;
+    }
+
+    :where(.wp-block-columns.is-layout-grid) {
+      gap: 2em;
+    }
+
+    :root :where(.wp-block-pullquote) {
+      font-size: 1.5em;
+      line-height: 1.6;
+    }
+  </style>
+  <link rel="stylesheet" id="hello-elementor-css" href="css/style.min.css" media="all">
+  <link rel="stylesheet" id="hello-elementor-theme-style-css" href="css/theme.min.css" media="all">
+  <link rel="stylesheet" id="hello-elementor-header-footer-css" href="css/header-footer.min.css" media="all">
+  <link rel="stylesheet" id="elementor-frontend-css" href="css/frontend.min.css" media="all">
+  <link rel="stylesheet" id="elementor-post-6-css" href="css/post-6.css" media="all">
+  <link rel="stylesheet" id="elementor-icons-ekiticons-css" href="css/ekiticons.css" media="all">
+  <link rel="stylesheet" id="swiper-css" href="css/swiper.min.css" media="all">
+  <link rel="stylesheet" id="elementor-pro-css" href="css/frontend.min_1.css" media="all">
+  <link rel="stylesheet" id="elementor-global-css" href="css/global.css" media="all">
+  <link rel="stylesheet" id="elementor-post-8-css" href="style.css" media="all">
+  <link rel="stylesheet" id="ekit-widget-styles-css" href="css/widget-styles.css" media="all">
+  <link rel="stylesheet" id="ekit-responsive-css" href="css/responsive.css" media="all">
+  <link rel="stylesheet" id="google-fonts-1-css"
+    href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTitan+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDosis%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.6.1"
+    media="all">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <script src="js/jquery.min.js" id="jquery-core-js"></script>
+  <script src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+  <link rel="https://api.w.org/" href="https://mrmigglesbase.com/wp-json/">
+  <link rel="alternate" title="JSON" type="application/json" href="https://mrmigglesbase.com/wp-json/wp/v2/pages/8">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mrmigglesbase.com/xmlrpc.php?rsd">
+  <link rel="canonical" href="https://mrmigglesbase.com/">
+  <link rel="shortlink" href="https://mrmigglesbase.com/">
+  <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+    href="https://mrmigglesbase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmrmigglesbase.com%2F">
+  <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+    href="https://mrmigglesbase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmrmigglesbase.com%2F&amp;format=xml">
+  <style>
+    .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+      background-image: none !important;
+    }
+
+    @media screen and (max-height: 1024px) {
+
+      .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+      }
+    }
+
+    @media screen and (max-height: 640px) {
+
+      .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+      }
+    }
+  </style>
+  <link rel="icon" href="cas.png" sizes="32x32">
+  <link rel="icon" href="cas.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="cas.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <script src="js/wp-emoji-release.min.js" defer=""></script>
+</head>
+
+<body
+  class="home page-template page-template-elementor_canvas page page-id-8 wp-custom-logo elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-8">
+  <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8"
+    data-elementor-post-type="page">
+    <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-18251ee elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+      data-id="18251ee" data-element_type="section">
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bb7e503"
+          data-id="bb7e503" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-f339a3b elementor-widget elementor-widget-heading"
+              data-id="f339a3b" data-element_type="widget" data-widget_type="heading.default">
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">Bull CZn</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1498af3"
+          data-id="1498af3" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-20307bb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="20307bb" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2851458"
+                  data-id="2851458" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div
+                      class="elementor-element elementor-element-56b3e13 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="56b3e13" data-element_type="widget" data-settings="{"
+                      _transform_scale_effect_hover":{"unit":"px","size":0.9,"sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"=""
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <a class="elementor-icon" href="https://t.me/bullczn" target="_blank">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fab-telegram-plane" viewBox="0 0 448 512"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                              </path>
+                            </svg> </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-7aeee02 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="7aeee02" data-element_type="widget" data-settings="{"
+                      _transform_scale_effect_hover":{"unit":"px","size":0.9,"sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"=""
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <a class="elementor-icon" href="https://bullczn.com/ttlink" target="_blank">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                              </path>
+                            </svg> </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-7aeee02 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="7aeee02" data-element_type="widget" data-settings="{"
+                      _transform_scale_effect_hover":{"unit":"px","size":0.9,"sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"=""
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <a class="elementor-icon" href="https://bullczn.com/chartlink" target="_blank">
+                            <img src="unnamed.png" alt=""> </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-8e69b94 elementor-section-height-min-height elementor-section-items-stretch elementor-reverse-mobile elementor-section-boxed elementor-section-height-default"
+      data-id="8e69b94" data-element_type="section" data-settings="{" background_background":"gradient"}"="">
+      <div class="elementor-background-overlay"></div>
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8ab434a"
+          data-id="8ab434a" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-c9eaf2d elementor-widget elementor-widget-image"
+              data-id="c9eaf2d" data-element_type="widget" data-widget_type="image.default">
+              <div class="elementor-widget-container">
+                <img loading="lazy" decoding="async" width="586" height="783" src="images/logo.png" style="padding: 3.5rem;"
+                  class="attachment-large size-large wp-image-167" alt="" sizes="(max-width: 586px) 100vw, 586px">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6c6e35c"
+          data-id="6c6e35c" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-f7bcdd1 elementor-widget elementor-widget-heading"
+              data-id="f7bcdd1" data-element_type="widget" data-widget_type="heading.default">
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">Bull CZn </h2>
+              </div>
+            </div>
+            <div class="elementor-element elementor-element-fdc7550 elementor-widget elementor-widget-heading"
+              data-id="fdc7550" data-element_type="widget" data-widget_type="heading.default">
+              <div class="elementor-widget-container">
+                <p class="elementor-heading-title elementor-size-default">Everyone knows I’m a bull. You haven’t even seen my final form yet.
+
+                </p>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-9a5ea6e elementor-align-center elementor-widget elementor-widget-button"
+              data-id="9a5ea6e" data-element_type="widget" data-widget_type="button.default">
+              <div class="elementor-widget-container">
+                <div class="elementor-button-wrapper">
+                  <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
+                    href="https://four.meme/token/0x4ed3e70f917c8496d523d46c58e344a206406481?code=ZKQH9BEFYA9M" target="_blank">
+                    <span class="elementor-button-content-wrapper">
+                      <span class="elementor-button-text">Buy Now</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-c569143 elementor-section-full_width elementor-section-height-min-height elementor-section-items-top elementor-section-content-space-between elementor-section-height-default"
+      data-id="c569143" data-element_type="section">
+      <div class="elementor-container elementor-column-gap-default">
+        <div
+          class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ea458ef"
+          data-id="1ea458ef" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-3b3cdbaf elementor-section-full_width elementor-section-content-middle sliding-text elementor-section-height-default elementor-section-height-default"
+              data-id="3b3cdbaf" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-78d01ccc"
+                  data-id="78d01ccc" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div
+                      class="elementor-element elementor-element-54d8e46f elementor-widget__width-inherit elementor-widget elementor-widget-heading"
+                      data-id="54d8e46f" data-element_type="widget" data-widget_type="heading.default">
+                      <div class="elementor-widget-container">
+                        <h2 class="elementor-heading-title elementor-size-default">$BCZN ✦ Bull CZn</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="elementor-element elementor-element-1a17cd5e elementor-widget elementor-widget-html"
+              data-id="1a17cd5e" data-element_type="widget" data-widget_type="html.default">
+              <div class="elementor-widget-container">
+                <style>
+                  body {
+                    --speed: 3s;
+                  }
+
+                  .sliding-text .elementor-widget-wrap {
+                    display: block !important;
+                  }
+
+                  .sliding-text .elementor-widget {
+                    overflow: hidden;
+                    width: 10000vw !important;
+                    max-width: 10000vw !important;
+                  }
+
+                  .sliding-text .sliding .elementor-widget-container {
+                    -webkit-animation: sliding var(--speed) linear infinite;
+                    -moz-animation: sliding var(--speed) linear infinite;
+                    -o-animation: sliding var(--speed) linear infinite;
+                    animation: sliding var(--speed) linear infinite;
+                  }
+
+                  .sliding-text .elementor-widget-container {
+                    float: left;
+                  }
+
+                  .sliding-text.reverse {
+                    transform: rotate(180deg);
+                  }
+
+                  .sliding-text.reverse .sliding .elementor-heading-title {
+                    transform: scale(-1, -1);
+                  }
+
+                  @keyframe sliding {
+                    0% {
+                      transform: translateX(0);
+                    }
+
+                    100% {
+                      transform: translateX(-100%);
+                    }
+                  }
+
+                  @-webkit-keyframes sliding {
+                    0% {
+                      transform: translateX(0);
+                    }
+
+                    100% {
+                      transform: translateX(-100%);
+                    }
+                  }
+
+                  @-moz-keyframes sliding {
+                    0% {
+                      transform: translateX(0);
+                    }
+
+                    100% {
+                      transform: translateX(-100%);
+                    }
+                  }
+
+                  @-o-keyframes sliding {
+                    0% {
+                      transform: translateX(0);
+                    }
+
+                    100% {
+                      transform: translateX(-100%);
+                    }
+                  }
+
+                  @keyframes sliding {
+                    0% {
+                      transform: translateX(0);
+                    }
+
+                    100% {
+                      transform: translateX(-100%);
+                    }
+                  }
+                </style>
+
+                <script src="js/jquery-3.6.0.min.js"></script>
+                <script>
+                  var $ = jQuery
+
+                  $(document).ready(function () {
+
+                    var h = []
+
+                    $('.sliding-text').each(function () {
+                      h.push($(this).find('.elementor-widget').clone().html())
+                    })
+
+                    function init() {
+                      $('.sliding-text').each(function (i) {
+
+                        var $this = $(this)
+
+                        $this.find('.elementor-widget').removeClass('sliding')
+
+                        var amount = Math.ceil($(window).width() / $(this).find('.elementor-widget-container').outerWidth(true)) + 1
+
+                        $this.find('.elementor-widget').empty().addClass('sliding')
+                        $this.find('.elementor-widget').html(h[i].repeat(amount))
+                      })
+                    }
+
+                    init()
+                    $(window).on('load resize', init)
+                  })
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-5a8ba37 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
+      data-id="5a8ba37" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+      <div class="elementor-background-overlay"></div>
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6aa14ca"
+          data-id="6aa14ca" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-ab8fe51 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="ab8fe51" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ebe2103"
+                  data-id="ebe2103" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-d4e25f3 elementor-widget elementor-widget-heading"
+                      data-id="d4e25f3" data-element_type="widget" data-widget_type="heading.default">
+                      <div class="elementor-widget-container">
+                        <h2 class="elementor-heading-title elementor-size-default">Who is Bull CZn
+                          ?</h2>
+                      </div>
+                    </div>
+                    <div class="elementor-element elementor-element-98a1f29 elementor-widget elementor-widget-heading"
+                      data-id="98a1f29" data-element_type="widget" data-widget_type="heading.default">
+                      <div class="elementor-widget-container">
+                        <p class="elementor-heading-title elementor-size-default">Everyone knows I’m a bull. <br>You haven’t even seen my final form yet.
+
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-cd35570 elementor-align-center elementor-widget elementor-widget-button"
+                      data-id="cd35570" data-element_type="widget" data-widget_type="button.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                          <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
+                            href="https://x.com/cz_binance/status/1350821063584747521"
+                            target="_blank">
+                            <span class="elementor-button-content-wrapper">
+                              <span class="elementor-button-text">KNOW MORE</span>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="elementor-element elementor-element-6e6d336 elementor-widget elementor-widget-video"
+                      data-id="6e6d336" data-element_type="widget" data-settings="{"
+                      video_type":"hosted","autoplay":"yes","controls":"yes"}"="" data-widget_type="video.default">
+                      <div class="elementor-widget-container">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-41895b9"
+          data-id="41895b9" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div
+              class="elementor-element elementor-element-c60ad14 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image"
+              data-id="c60ad14" data-element_type="widget" data-settings="{" _position":"absolute"}"=""
+              data-widget_type="image.default">
+              <div class="elementor-widget-container">
+                <img loading="lazy" decoding="async" width="800" height="800" src="./cas.png"
+                  class="attachment-large size-large wp-image-147" alt="" sizes="(max-width: 800px) 100vw, 800px"
+                  style="width: 70%; border-radius: 12px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ -->
+
+    <div class="elementor-container elementor-column-gap-default">
+      <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cec435"
+        data-id="7cec435" data-element_type="column">
+        <div class="elementor-widget-wrap elementor-element-populated">
+
+
+
+
+          <section
+            class="elementor-section elementor-inner-section elementor-element elementor-element-1b3631b elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="1b3631b" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-00e7975"
+                data-id="00e7975" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-e62564b elementor-widget elementor-widget-image"
+                    data-id="e62564b" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/bitget-2.png"
+                        class="attachment-large size-large wp-image-183" alt=""
+                        srcset="https://bullczn.com/images/bitget-2.png 701w, https://bullczn.com/images/bitget-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2afa7f7"
+                data-id="2afa7f7" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-aa5c680 elementor-widget elementor-widget-image"
+                    data-id="aa5c680" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/bingx.png"
+                        class="attachment-large size-large wp-image-182" alt=""
+                        srcset="https://bullczn.com/images/bingx.png 701w, https://bullczn.com/images/bingx-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-db76e9d"
+                data-id="db76e9d" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-57e1699 elementor-widget elementor-widget-image"
+                    data-id="57e1699" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/mexc.png"
+                        class="attachment-large size-large wp-image-181" alt=""
+                        srcset="https://bullczn.com/images/mexc.png 701w, https://bullczn.com/images/mexc-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-bfd9c4b"
+                data-id="bfd9c4b" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-0b72534 elementor-widget elementor-widget-image"
+                    data-id="0b72534" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/gateio-2.png"
+                        class="attachment-large size-large wp-image-180" alt=""
+                        srcset="https://bullczn.com/images/gateio-2.png 701w, https://bullczn.com/images/gateio-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="elementor-section elementor-inner-section elementor-element elementor-element-9690582 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="9690582" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d659cb8"
+                data-id="d659cb8" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-0b9e8ac elementor-widget elementor-widget-image"
+                    data-id="0b9e8ac" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/bitruee-2.png"
+                        class="attachment-large size-large wp-image-178" alt=""
+                        srcset="https://bullczn.com/images/bitruee-2.png 701w, https://bullczn.com/images/bitruee-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-72908d5"
+                data-id="72908d5" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-b42e9a6 elementor-widget elementor-widget-image"
+                    data-id="b42e9a6" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/kcex-2.png"
+                        class="attachment-large size-large wp-image-179" alt=""
+                        srcset="https://bullczn.com/images/kcex-2.png 701w, https://bullczn.com/images/kcex-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-31c2dca"
+                data-id="31c2dca" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-713903b elementor-widget elementor-widget-image"
+                    data-id="713903b" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/poloniexx-2.png"
+                        class="attachment-large size-large wp-image-176" alt=""
+                        srcset="https://bullczn.com/images/poloniexx-2.png 701w, https://bullczn.com/images/poloniexx-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7a0d7dd"
+                data-id="7a0d7dd" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-438dbcd elementor-widget elementor-widget-image"
+                    data-id="438dbcd" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/xt.com_.png"
+                        class="attachment-large size-large wp-image-174" alt=""
+                        srcset="https://bullczn.com/images/xt.com_.png 701w, https://bullczn.com/images/xt.com_-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="elementor-section elementor-inner-section elementor-element elementor-element-b16f41a elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="b16f41a" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0b3858f"
+                data-id="0b3858f" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-aeebd6f elementor-widget elementor-widget-image"
+                    data-id="aeebd6f" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/coinexx-2.png"
+                        class="attachment-large size-large wp-image-177" alt=""
+                        srcset="https://bullczn.com/images/coinexx-2.png 701w, https://bullczn.com/images/coinexx-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1f5202e"
+                data-id="1f5202e" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-de3c97d elementor-widget elementor-widget-image"
+                    data-id="de3c97d" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/ascend-2.png"
+                        class="attachment-large size-large wp-image-173" alt=""
+                        srcset="https://bullczn.com/images/ascend-2.png 701w, https://bullczn.com/images/ascend-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-81b2076"
+                data-id="81b2076" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-bec17c2 elementor-widget elementor-widget-image"
+                    data-id="bec17c2" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img decoding="async" width="701" height="161" src="images/limitlesss-2.png"
+                        class="attachment-large size-large wp-image-186" alt=""
+                        srcset="images/limitlesss-2.png 701w, https://bullczn.com/images/limitlesss-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-59d11cb"
+                data-id="59d11cb" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-de7c999 elementor-widget elementor-widget-image"
+                    data-id="de7c999" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/astaria-2.png"
+                        class="attachment-large size-large wp-image-175" alt=""
+                        srcset="https://bullczn.com/images/astaria-2.png 701w, https://bullczn.com/images/astaria-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="elementor-section elementor-inner-section elementor-element elementor-element-e9da4a0 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="e9da4a0" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fdba923"
+                data-id="fdba923" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-20ae6dd elementor-widget elementor-widget-image"
+                    data-id="20ae6dd" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img fetchpriority="high" decoding="async" width="701" height="161" src="images/superex-2.png"
+                        class="attachment-large size-large wp-image-188" alt=""
+                        srcset="images/superex-2.png 701w, https://bullczn.com/images/superex-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fb8648b"
+                data-id="fb8648b" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-ed8b992 elementor-widget elementor-widget-image"
+                    data-id="ed8b992" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img decoding="async" width="701" height="161" src="images/lbankk-2.png"
+                        class="attachment-large size-large wp-image-189" alt=""
+                        srcset="images/lbankk-2.png 701w, https://bullczn.com/images/lbankk-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a45d59c elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile"
+                data-id="a45d59c" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-2bb1e7a elementor-widget elementor-widget-image"
+                    data-id="2bb1e7a" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img decoding="async" width="701" height="161" src="images/limitlesss-2.png"
+                        class="attachment-large size-large wp-image-186" alt=""
+                        srcset="images/limitlesss-2.png 701w, https://bullczn.com/images/limitlesss-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1fe1cb0 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile"
+                data-id="1fe1cb0" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-88dfbcf elementor-widget elementor-widget-image"
+                    data-id="88dfbcf" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                      <img loading="lazy" decoding="async" width="701" height="161" src="https://bullczn.com/images/astaria-2.png"
+                        class="attachment-large size-large wp-image-175" alt=""
+                        srcset="https://bullczn.com/images/astaria-2.png 701w, https://bullczn.com/images/astaria-2-300x69.png 300w"
+                        sizes="(max-width: 701px) 100vw, 701px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="gallery-section">
+        <h2 style="font-family: 'Titan One', sans-serif;">Bull CZn</h2>
+        <div class="gallery-grid" style="display: flex; justify-content: center; align-items: center;">
+          <!-- <div class="gallery-item">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CJDHbHAhJnO/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CJDHbHAhJnO/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CJDHbHAhJnO/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Bull CZn 🎀 (@Bull CZnbabosh)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+          </div> -->
+          <div class="gallery-item">
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Everyone knows I’m a bull. You haven’t even seen my final form yet. <a href="https://t.co/A8LUwFQYpO">pic.twitter.com/A8LUwFQYpO</a></p>&mdash; CZ 🔶 BNB (@cz_binance) <a href="https://twitter.com/cz_binance/status/1350821063584747521?ref_src=twsrc%5Etfw">January 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <!-- <div class="gallery-item">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCzTX4Oizl4/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/DCzTX4Oizl4/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DCzTX4Oizl4/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Bull CZn 🎀 (@Bull CZnbabosh)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+          </div> -->
+        </div>
+      </div>
+
+    </section>
+
+    <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-ca5ff00 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+      data-id="ca5ff00" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+      <div class="elementor-container elementor-column-gap-no">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9299a2c"
+          data-id="9299a2c" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-5d16537 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="5d16537" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a9883c3"
+                  data-id="a9883c3" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-ddf9b63 elementor-widget elementor-widget-heading"
+                      data-id="ddf9b63" data-element_type="widget" data-widget_type="heading.default">
+                      <div class="elementor-widget-container">
+                        <h2 class="elementor-heading-title elementor-size-default">Tokenomics</h2>
+                      </div>
+                    </div>
+                    <div class="elementor-element elementor-element-f52888d elementor-widget elementor-widget-heading"
+                      data-id="f52888d" data-element_type="widget" data-widget_type="heading.default">
+                      <div class="elementor-widget-container">
+                        <!-- <p class="elementor-heading-title elementor-size-default">Disclaimer: We Are A Memecoin Fan
+                          Community That Is Not Affiliated With SOLANA </p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-4e6fd0f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="4e6fd0f" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7a0ab8b"
+                  data-id="7a0ab8b" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <section
+                      class="elementor-section elementor-inner-section elementor-element elementor-element-f4760c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                      data-id="f4760c9" data-element_type="section" data-settings="{"
+                      background_background":"classic"}"="">
+                      <div class="elementor-container elementor-column-gap-default">
+                        <div
+                          class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-16c258f"
+                          data-id="16c258f" data-element_type="column">
+                          <div class="elementor-widget-wrap elementor-element-populated">
+                            <div
+                              class="elementor-element elementor-element-69846db elementor-widget elementor-widget-heading"
+                              data-id="69846db" data-element_type="widget" data-widget_type="heading.default">
+                              <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default">
+                                  0x4ed3e70f917c8496d523d46c58e344a206406481</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e3fdbc0"
+                          data-id="e3fdbc0" data-element_type="column">
+                          <div class="elementor-widget-wrap elementor-element-populated">
+                            <div
+                              class="elementor-element elementor-element-3488233 elementor-align-center elementor-widget elementor-widget-button"
+                              data-id="3488233" data-element_type="widget" data-widget_type="button.default">
+                              <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                  <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
+                                    href="https://four.meme/token/0x4ed3e70f917c8496d523d46c58e344a206406481?code=ZKQH9BEFYA9M" target="_blank">
+                                    <span class="elementor-button-content-wrapper">
+                                      <span class="elementor-button-text">CHART</span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-c250e55 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="c250e55" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1b93ce9"
+                  data-id="1b93ce9" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-ebb5026 elementor-widget elementor-widget-icon-box"
+                      data-id="ebb5026" data-element_type="widget" data-widget_type="icon-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-box-wrapper">
+
+
+                          <div class="elementor-icon-box-content">
+
+                            <h3 class="elementor-icon-box-title">
+                              <span>
+                                Taxes </span>
+                            </h3>
+
+                            <p class="elementor-icon-box-description">
+                              0% — 0% </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-3137535"
+                  data-id="3137535" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-18ec7bb elementor-widget elementor-widget-icon-box"
+                      data-id="18ec7bb" data-element_type="widget" data-widget_type="icon-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-box-wrapper">
+
+
+                          <div class="elementor-icon-box-content">
+
+                            <h3 class="elementor-icon-box-title">
+                              <span>
+                                Liquidity </span>
+                            </h3>
+
+                            <p class="elementor-icon-box-description">
+                              BURNED </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-245824e"
+                  data-id="245824e" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-9a9677d elementor-widget elementor-widget-icon-box"
+                      data-id="9a9677d" data-element_type="widget" data-widget_type="icon-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-box-wrapper">
+
+
+                          <div class="elementor-icon-box-content">
+
+                            <h3 class="elementor-icon-box-title">
+                              <span>
+                                Ownership </span>
+                            </h3>
+
+                            <p class="elementor-icon-box-description">
+                              RENOUNCED </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-571c85f"
+                  data-id="571c85f" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-7d7943c elementor-widget elementor-widget-icon-box"
+                      data-id="7d7943c" data-element_type="widget" data-widget_type="icon-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-box-wrapper">
+
+
+                          <div class="elementor-icon-box-content">
+
+                            <h3 class="elementor-icon-box-title">
+                              <span>
+                                Total Supply </span>
+                            </h3>
+
+                            <p class="elementor-icon-box-description">
+                              100M </p>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="elementor-element elementor-element-296c0e0 elementor-widget elementor-widget-image"
+              data-id="296c0e0" data-element_type="widget" data-widget_type="image.default">
+              <div class="elementor-widget-container">
+                <!-- <img loading="lazy" decoding="async" width="800" height="271" src="3.png"
+                  class="attachment-large size-large wp-image-196" alt="" sizes="(max-width: 800px) 100vw, 800px"> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-fd2a6d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+      data-id="fd2a6d1" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba3063a"
+          data-id="ba3063a" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-61c1512 elementor-widget elementor-widget-heading"
+              data-id="61c1512" data-element_type="widget" data-widget_type="heading.default">
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">How to buy?</h2>
+              </div>
+            </div>
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-de5527a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="de5527a" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-4a5d7c0"
+                  data-id="4a5d7c0" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div
+                      class="elementor-element elementor-element-8ffd399 elementor-position-top elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
+                      data-id="8ffd399" data-element_type="widget" data-widget_type="image-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-image-box-wrapper">
+                          <figure class="elementor-image-box-img">
+                          </figure>
+                          <div class="elementor-image-box-content">
+                            <h3 class="elementor-image-box-title">Download Metamask Wallet</h3>
+                            <p class="elementor-image-box-description">Download and install Metamask Wallet on the
+                              appstore, or, alternatively if you’re on desktop download and install the browser
+                              extension.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-04f7936 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="04f7936" data-element_type="widget" data-settings="{"
+                      _transform_rotatez_effect_mobile":{"unit":"deg","size":90,"sizes":[]},"_transform_rotatez_effect":{"unit":"px","size":"","sizes":[]},"_transform_rotatez_effect_tablet":{"unit":"deg","size":"","sizes":[]}}"=""
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <div class="elementor-icon">
+                            <i aria-hidden="true" class="icon icon-double-angle-pointing-to-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-6f556d3 elementor-position-top elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
+                      data-id="6f556d3" data-element_type="widget" data-widget_type="image-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-image-box-wrapper">
+                          <figure class="elementor-image-box-img">
+                          </figure>
+                          <div class="elementor-image-box-content">
+                            <h3 class="elementor-image-box-title">Deposit Your BNB</h3>
+                            <p class="elementor-image-box-description">Deposit BNB.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-3357a8f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="3357a8f" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-739ff2c"
+                  data-id="739ff2c" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div
+                      class="elementor-element elementor-element-2fd2631 elementor-position-top elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
+                      data-id="2fd2631" data-element_type="widget" data-widget_type="image-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-image-box-wrapper">
+                          <figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="158"
+                              height="149" src="images/logo.png"   class="attachment-full size-full wp-image-213"
+                              alt=""></figure>
+                          <div class="elementor-image-box-content">
+                            <h3 class="elementor-image-box-title">Buy some $BCZN</h3>
+                            <p class="elementor-image-box-description">Now go to Pancakeswap and
+                              paste the $BCZN Contract Address to swap your BNB.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-446471a elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="446471a" data-element_type="widget" data-settings="{"
+                      _transform_rotatez_effect_mobile":{"unit":"deg","size":90,"sizes":[]},"_transform_rotatez_effect":{"unit":"px","size":"","sizes":[]},"_transform_rotatez_effect_tablet":{"unit":"deg","size":"","sizes":[]}}"=""
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <div class="elementor-icon">
+                            <i aria-hidden="true" class="icon icon-double-angle-pointing-to-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-e123694 elementor-position-top elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
+                      data-id="e123694" data-element_type="widget" data-widget_type="image-box.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-image-box-wrapper">
+                          <figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="146"
+                              height="175" src="wallet.png" class="attachment-full size-full wp-image-217" alt="">
+                          </figure>
+                          <div class="elementor-image-box-content">
+                            <h3 class="elementor-image-box-title">Add to Your Wallet</h3>
+                            <p class="elementor-image-box-description">Now you’re all set! Welcome aboard the next
+                              rocket to the moon, view you’re holdings and you can
+                              track your earnings.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-a227126 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+      data-id="a227126" data-element_type="section">
+      <div class="elementor-container elementor-column-gap-no">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b39da3c"
+          data-id="b39da3c" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-4231328 elementor-widget elementor-widget-image"
+              data-id="4231328" data-element_type="widget" data-widget_type="image.default">
+              <div class="elementor-widget-container">
+                <style>
+                  #dexscreener-embed {
+                    position: relative;
+                    width: 100%;
+                    padding-bottom: 125%;
+                  }
+
+                  @media(min-width:1400px) {
+                    #dexscreener-embed {
+                      padding-bottom: 65%;
+                    }
+                  }
+
+                  #dexscreener-embed iframe {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    border: 0;
+                  }
+                </style>
+                <div id="dexscreener-embed">
+                  <iframe src="https://dexscreener.com/ethereum/0x4ed3e70f917c8496d523d46c58e344a206406481?embed=1">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section
+      class="elementor-section elementor-top-section elementor-element elementor-element-7aa76d00 elementor-section-height-min-height elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+      data-id="7aa76d00" data-element_type="section" data-settings="{" background_background":"classic"}">
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-db0f326"
+          data-id="db0f326" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-element-2e4678db elementor-widget elementor-widget-text-editor"
+              data-id="2e4678db" data-element_type="widget" data-widget_type="text-editor.default">
+              <div class="elementor-widget-container">
+                <p>All Rights Reserved &copy; 2025</p>
+              </div>
+            </div>
+            <div class="elementor-element elementor-element-bc2d500 elementor-widget elementor-widget-heading"
+              data-id="bc2d500" data-element_type="widget" data-widget_type="heading.default">
+              <div class="elementor-widget-container">
+                <img style="width: 180px;border-radius: 50%;" src="images/cas.png"  alt="">
+                <!-- <h2 class="elementor-heading-title elementor-size-default">Bull CZn</h2> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-761f6977"
+          data-id="761f6977" data-element_type="column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <section
+              class="elementor-section elementor-inner-section elementor-element elementor-element-50a14ec elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              data-id="50a14ec" data-element_type="section">
+              <div class="elementor-container elementor-column-gap-default">
+                <div
+                  class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-34cac15"
+                  data-id="34cac15" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                    <div
+                      class="elementor-element elementor-element-2278c08 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="2278c08" data-element_type="widget" data-settings="{"
+                      _transform_scale_effect_hover":{"unit":"px","size":0.9,"sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <a class="elementor-icon" href="https://t.me/bullczn" target="_blank">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fab-telegram-plane" viewBox="0 0 448 512"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                              </path>
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-05d92c2 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="05d92c2" data-element_type="widget" data-settings="{"
+                      _transform_scale_effect_hover":{"unit":"px","size":0.9,"sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <a class="elementor-icon" href="https://bullczn.com/ttlink" target="_blank">
+                            <svg aria-hidden="true" class="e-font-icon-svg e-fab-x-twitter" viewBox="0 0 512 512"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                              </path>
+                            </svg> </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-05d92c2 elementor-widget__width-initial e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                      data-id="05d92c2" data-element_type="widget" data-settings="{"
+                      _transform_scale_effect_hover":{"unit":"px","size":0.9,"sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"
+                      data-widget_type="icon.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-icon-wrapper">
+                          <a class="elementor-icon" href="https://bullczn.com/chartlink" target="_blank">
+                           <img src="unnamed.png" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="elementor-element elementor-element-2bd85c8 elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-button"
+                      data-id="2bd85c8" data-element_type="widget" data-widget_type="button.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                          <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
+                            href="https://four.meme/token/0x4ed3e70f917c8496d523d46c58e344a206406481?code=ZKQH9BEFYA9M" target="_blank">
+                            <span class="elementor-button-content-wrapper">
+                              <span class="elementor-button-text">Buy Now</span>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type='text/javascript'>
+    const lazyloadRunObserver = () => {
+      const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+      const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            let lazyloadBackground = entry.target;
+            if (lazyloadBackground) {
+              lazyloadBackground.classList.add('e-lazyloaded');
+            }
+            lazyloadBackgroundObserver.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '200px 0px 200px 0px'
+      });
+      lazyloadBackgrounds.forEach((lazyloadBackground) => {
+        lazyloadBackgroundObserver.observe(lazyloadBackground);
+      });
+    };
+    const events = [
+      'DOMContentLoaded',
+      'elementor/lazyload/observe',
+    ];
+    events.forEach((event) => {
+      document.addEventListener(event, lazyloadRunObserver);
+    });
+  </script>
+
+  <script id="elementor-frontend-js-before">
+    var elementorFrontendConfig = {
+      "environmentMode": {
+        "edit": false,
+        "wpPreview": false,
+        "isScriptDebug": false
+      },
+      "i18n": {
+        "shareOnFacebook": "Share on Facebook",
+        "shareOnTwitter": "Share on Twitter",
+        "pinIt": "Pin it",
+        "download": "Download",
+        "downloadImage": "Download image",
+        "fullscreen": "Fullscreen",
+        "zoom": "Zoom",
+        "share": "Share",
+        "playVideo": "Play Video",
+        "previous": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+        "a11yCarouselPrevSlideMessage": "Previous slide",
+        "a11yCarouselNextSlideMessage": "Next slide",
+        "a11yCarouselFirstSlideMessage": "This is the first slide",
+        "a11yCarouselLastSlideMessage": "This is the last slide",
+        "a11yCarouselPaginationBulletMessage": "Go to slide"
+      },
+      "is_rtl": false,
+      "breakpoints": {
+        "xs": 0,
+        "sm": 480,
+        "md": 768,
+        "lg": 1025,
+        "xl": 1440,
+        "xxl": 1600
+      },
+      "responsive": {
+        "breakpoints": {
+          "mobile": {
+            "label": "Mobile Portrait",
+            "value": 767,
+            "default_value": 767,
+            "direction": "max",
+            "is_enabled": true
+          },
+          "mobile_extra": {
+            "label": "Mobile Landscape",
+            "value": 880,
+            "default_value": 880,
+            "direction": "max",
+            "is_enabled": false
+          },
+          "tablet": {
+            "label": "Tablet Portrait",
+            "value": 1024,
+            "default_value": 1024,
+            "direction": "max",
+            "is_enabled": true
+          },
+          "tablet_extra": {
+            "label": "Tablet Landscape",
+            "value": 1200,
+            "default_value": 1200,
+            "direction": "max",
+            "is_enabled": false
+          },
+          "laptop": {
+            "label": "Laptop",
+            "value": 1366,
+            "default_value": 1366,
+            "direction": "max",
+            "is_enabled": false
+          },
+          "widescreen": {
+            "label": "Widescreen",
+            "value": 2400,
+            "default_value": 2400,
+            "direction": "min",
+            "is_enabled": false
+          }
+        }
+      },
+      "version": "3.23.3",
+      "is_static": false,
+      "experimentalFeatures": {
+        "e_font_icon_svg": true,
+        "e_swiper_latest": true,
+        "e_nested_atomic_repeaters": true,
+        "e_optimized_control_loading": true,
+        "e_onboarding": true,
+        "theme_builder_v2": true,
+        "hello-theme-header-footer": true,
+        "home_screen": true,
+        "editor_v2": true,
+        "e_lazyload": true,
+        "e_element_cache": true,
+        "link-in-bio": true,
+        "display-conditions": true,
+        "form-submissions": true,
+        "taxonomy-filter": true,
+        "search": true
+      },
+      "urls": {
+        "assets": "https:\/\/mrmigglesbase.com\/wp-content\/plugins\/elementor\/assets\/",
+        "ajaxurl": "https:\/\/mrmigglesbase.com\/wp-admin\/admin-ajax.php"
+      },
+      "nonces": {
+        "floatingButtonsClickTracking": "ab4d9b094a"
+      },
+      "swiperClass": "swiper",
+      "settings": {
+        "page": [],
+        "editorPreferences": []
+      },
+      "kit": {
+        "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+        "global_image_lightbox": "yes",
+        "lightbox_enable_counter": "yes",
+        "lightbox_enable_fullscreen": "yes",
+        "lightbox_enable_zoom": "yes",
+        "lightbox_enable_share": "yes",
+        "lightbox_title_src": "title",
+        "lightbox_description_src": "description",
+        "hello_header_logo_type": "logo",
+        "hello_footer_logo_type": "logo"
+      },
+      "post": {
+        "id": 8,
+        "title": "Mister%20Miggles%20%E2%80%93%20Base%20",
+        "excerpt": "",
+        "featuredImage": false
+      }
+    };
+  </script>
+
+</body>
+
+</html>
+</iframe></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</body>
+
+</html>
